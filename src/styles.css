@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* mat-list-item */
+/* LEFT align */
+.mat-list .mat-list-item.left .mat-list-item-content{
+      justify-content: flex-start;
+}
+
+/* RIGHT align */
+.mat-list .mat-list-item.right .mat-list-item-content{
+      justify-content: flex-end;
+}
