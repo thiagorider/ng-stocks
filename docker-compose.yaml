@@ -1,6 +1,6 @@
 version "production"
 
-service:
+services:
   ng-stocks-build:
     image: ng-stocks-build
     build: .
