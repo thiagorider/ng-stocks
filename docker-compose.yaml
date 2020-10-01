@@ -1,4 +1,4 @@
-version "production"
+version: "production"
 
 services:
   ng-stocks-build:
