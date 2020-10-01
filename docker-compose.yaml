@@ -1,0 +1,8 @@
+version "production"
+
+service:
+  ng-stocks-build:
+    image: ng-stocks-build
+    build: .
+    ports:
+      - 8081:80
